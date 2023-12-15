@@ -173,6 +173,98 @@
       "filterable": 1,
       "ext": "./lib/阿里云盘网.json"
     },
+     {
+      "key": "短剧网",
+      "name": "📽┃有趣┃短剧",
+      "type": 3,
+      "api": "csp_Duanjuw",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "jar": "./lib/ou.jar;md5;550a6ae1d050d7f8b1bf3b715d1f5277"
+    },
+    {
+      "key": "横版影院",
+      "name": "📽┃横版┃短剧",
+      "type": 1,
+      "api": "https://cj.lzcaiji.com/api.php/provide/vod/from/liangzi/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "短剧"
+      ],
+      "jar": "./lib/ou.jar;md5;550a6ae1d050d7f8b1bf3b715d1f5277"
+    },
+    {
+      "key": "csp_AppYsV2_Mxone",
+      "name": "📽┃椰子┃短剧",
+      "type": 3,
+      "api": "csp_AppYsV2",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://www.kuin.one/api.php/app/",
+      "jar": "./lib/ou.jar;md5;550a6ae1d050d7f8b1bf3b715d1f5277"
+    },
+    {
+      "key": "csp_Bili短剧",
+      "name": "📽┃哔哩┃短剧",
+      "api": "csp_Bili",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./lib/spider.txt;md5;A21EA6F5DD3B5F922B3A7F54D3BD0F16",
+      "ext": "./lib/Bili短剧.json"
+    },
+    {
+      "key": "XBPQ_葡萄",
+      "name": "📽┃葡萄┃短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "ext": {
+        "数组": "class=\"stui-vodlist__box&&</li",
+        "分类url": "https://www.putaojuchang.com/show/{cateId}/area/{area}/class/{class}/by/{by}/page/{catePg}/year/{year}.html",
+        "分类": "微剧场$1#言情$6#逆袭$7#战神$8#异能$9#生活$10#重生$12#复仇$20#爱情$11"
+      }
+    },
+    {
+      "key": "js_DJ5",
+      "name": "📽┃迪哲┃短剧",
+      "type": 3,
+      "api": "./lib/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/短剧网.js"
+    },
+    {
+      "key": "csp_XYQHiker_VSYY",
+      "name": "📽┃微司┃短剧",
+      "type": 3,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "api": "csp_XYQHiker",
+      "jar": "./lib/spider.txt;md5;A21EA6F5DD3B5F922B3A7F54D3BD0F16",
+      "ext": "./lib/VS影院.json"
+    },
+    {
+      "key": "csp_XBPQ_aoaotv",
+      "name": "📽┃嗷嗷┃短剧",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "jar": "./lib/duo.jar;md5;5C5116C70E15343433C8480C3B448408",
+      "ext": {
+        "分类url": "https://aoao.tv/vodshow/{cateId}--------{catePg}---.html",
+        "分类": "短剧$20#电视剧$21#电影$22#动漫$23#综艺$24"
+      }
+    },
     {
       "key": "云盘分享社",
       "name": "云盘｜分享社",
